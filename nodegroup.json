@@ -1,0 +1,33 @@
+{
+    "nodegroupName": "demo-nodegroup",
+    "nodegroupArn": "arn:aws:eks:us-east-1:582866709604:nodegroup/demo-cluster/demo-nodegroup/e8d03193-25fb-b41b-b645-a749698d3318",
+    "clusterName": "demo-cluster",
+    "version": "1.32",
+    "releaseVersion": "1.32.13-20260827",
+    "createdAt": "2026-09-02T22:54:10.011000+05:30",
+    "modifiedAt": "2026-09-02T22:54:10.011000+05:30",
+    "status": "CREATING",
+    "capacityType": "ON_DEMAND",
+    "scalingConfig": {
+        "minSize": 2,
+        "maxSize": 3,
+        "desiredSize": 2
+    },
+    "instanceTypes": [
+        "t3.medium"
+    ],
+    "subnets": [
+        "subnet-0f98f2e1ae571e05d",
+        "subnet-0b50c999937da0ad3"
+    ],
+    "amiType": "AL2023_x86_64_STANDARD",
+    "nodeRole": "arn:aws:iam::582866709604:role/demo-cluster-node-role",
+    "diskSize": 20,
+    "health": {
+        "issues": []
+    },
+    "updateConfig": {
+        "maxUnavailable": 1
+    },
+    "tags": {}
+}
